@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+
+}
+.container {
+    display: flex;  
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+    border: 1px solid #ccc;
+    
+}
+
+.grid-square {
+    box-sizing: border-box;
+    border: 1px solid #add8e6;
+    background-color: white;
+
+}
